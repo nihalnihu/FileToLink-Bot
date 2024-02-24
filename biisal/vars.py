@@ -9,7 +9,8 @@ load_dotenv()
 bot_name = "File To Speed Link Bot"
 bisal_channel = "https://telegram.me/MV_Rockers"
 bisal_grp = "https://t.me/Movie_Laab"
-nihal_cannel = "https://t.me/MV_Rockers"
+MV_Rockers = "https://t.me/MV_Rockers"
+movie_laab = "https://t.me/movie_laab"
 
 class Var(object):
     MULTI_CLIENT = False
