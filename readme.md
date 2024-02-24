@@ -124,7 +124,7 @@ DATABASE_URL=mongodb_uri
 
 To get an instant stream link, just forward any media to the bot and boom, its 🚀🚀.
   
-![image](https://i.postimg.cc/7hbFzd7X/20231212-235124.jpg)
+![image](https://telegra.ph/file/e205d787b6d2f71ff106b.jpg)
 
 
 ### Channel Support
@@ -132,6 +132,6 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ### Credits : 
 
-- [Me](https://github.com/biisal)
+- [𝙉𝙄𝙃𝘼𝙇](https://github.com/darkhacker34)
 - [Adarsh](https://github.com/adarsh-goel)
 - Everyone In This Journey !
