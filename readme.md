@@ -7,22 +7,16 @@ Here is our Demo bot -
 
 [![Follow Instagram](https://img.shields.io/badge/-Follow%20Instagram-dd0a5e?style=flat&logo=instagram&labelColor=white&link=https://www.instagram.com/nihh____al)](https://www.instagram.com/nihh____al)
 
-[![Join WhatsApp Channel](https://img.shields.io/badge/-Whatsapp%20Channel-green?style=flat&logo=whatsapp&labelColor=white&link=https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1)](https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1)
+[![Join WhatsApp Channel](https://img.shields.io/badge/-Whatsapp%20Channel-25g356?style=flat&logo=whatsapp&labelColor=white&link=https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1)](https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1)
 
 
 <h1 align="center"></h1>
 <p align="center"> 
-  <img src="https://wallpapercave.com/wp/wp12026024.jpg" alt="Cover Image" width="650">
+  <img src="https://telegra.ph/file/2d9f6de853dbd31cb3774.jpg" alt="Cover Image" width="200">
   </a>
   
  <p align="center">
-    A Telegram bot to turn all media and documents files to instant direct download and stream link .
-    <br />
-   </strong></a>
-    <br />
-    <a href="https://github.com/biisal/biisal-file-stream-pro/issues">Report a Bug</a>
-    |
-    <a href="https://github.com/biisal/biisal-file-stream-pro/issues">Request Feature</a>
+    ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ᴛᴇʀɴ ᴀʟʟ ᴍᴇᴅɪᴀ ᴀɴᴅ ғɪʟᴇs ᴛᴏ ɪɴsᴛᴀɴᴛ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋs.
   </p>
 
 
