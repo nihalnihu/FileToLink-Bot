@@ -20,53 +20,24 @@ Here is our Demo bot -
   </p>
 
 
-<hr>
-
-## Project Discontinuation Notice and Disclaimer
-
-**Please Note**:
-
-This project has been discontinued and is no longer actively maintained or updated. As a result, it may contain outdated dependencies or potential security vulnerabilities.
-
-**Disclaimer:**
-
-This code is provided as-is, for educational purposes only, with no support or warranty. The developer is not liable for any legal consequences, damages, or issues that may arise from its use.
-
-By using this code, you accept these terms and conditions, agreeing that all risks and responsibilities lie with you, the end user. Ensure the code's suitability for your needs before proceeding.
-
-Feel free to use the existing code for educational or reference purposes, but be aware that it may not be suitable for production use without significant updates and improvements.
-
-Thank you for your interest in this project, and we appreciate your understanding regarding its discontinuation.
-
-<hr>
-
-## 🍁 About This Bot :
-
-![streamingfilestreambot-professional-live_1](https://t3.ftcdn.net/jpg/05/97/92/78/240_F_597927853_iZIpn7Blgg3TPd1XEKgF1KhLRuqNxhiU.jpg)
-
-</p>
-<p align='center'>
-    This bot will give you streamable download links for Telegram files without the need of waiting till the download completes.
-</p>
-
-
 <br>
 <details>
   <summary><b>Features:</b></summary>
   
 <p>
 
-🚀Features<p>
-💥Superfast⚡️ download and stream links.<br>
-💥No ads in generated links.<br>
-💥Superfast interface.<br>
-💥Along with the links you also get file information like name,size ,etc.<br>
-💥Updates channel Support.<br>
-💥Mongodb database support for broadcasting.<br>
-💥Password Protection.<br>
-💥User DC Check.<br>
-💥Custom Domain support. <br>
-💥All unwanted code removed. <br>
+🚀𝙵𝚎𝚊𝚝𝚞𝚛𝚜<p>
+💥 𝙻𝚒𝚗𝚔 𝙽𝙾 𝙴𝚡𝚙𝚒𝚛𝚎 𝚞𝚗𝚝𝚒𝚕 𝚈𝙾𝚄 𝙳𝚎𝚕𝚎𝚝𝚎 𝚃𝚑𝚎 ғɪʟᴇs 𝙸𝚗 𝙱𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻
+💥𝚂𝚞𝚙𝚎𝚛 𝙵𝚊𝚜𝚝⚡️ 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙰𝚗𝚍 𝚂𝚝𝚛𝚎𝚊𝚖 𝙻𝙸𝙽𝙺𝚂<br>
+💥𝙽𝚘 𝙰𝚍𝚜 𝙸𝚗 𝙶𝚎𝚗𝚎𝚝𝚊𝚝𝚎𝚍 𝙻𝚒𝚗𝚔𝚜<br>
+💥𝚂𝚞𝚙𝚎𝚛 𝙵𝚊𝚜𝚝 𝙸𝚗𝚝𝚎𝚛𝚏𝚊𝚌𝚎.<br>
+💥𝙰𝚕𝚘𝚗𝚐 𝚆𝚒𝚝𝚑 𝚃𝚑𝚎 𝙻𝚒𝚗𝚔𝚜 𝚈𝚘𝚞 𝙰𝚕𝚜𝚘 𝙶𝚎𝚝 𝙵𝚒𝚕𝚎 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗 𝙻𝚒𝚔𝚎 𝙵𝚒𝚕𝚎 𝙽𝚊𝚖𝚎,𝚂𝚒𝚣𝚎 ,𝚎𝚝𝚌.<br>
+💥𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝚂𝚞𝚙𝚙𝚘𝚛𝚝.<br>
+💥𝙼𝚘𝚗𝚐𝚘𝚍𝚋 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙵𝚘𝚛 𝙱𝚛𝚘𝚊𝚍𝚌𝚊𝚜𝚝𝚒𝚗𝚐.<br>
+💥𝙿𝚊𝚜𝚜𝚠𝚘𝚛𝚍 𝙿𝚛𝚘𝚝𝚎𝚟𝚝𝚒𝚘𝚗.<br>
+💥𝚄𝚜𝚎𝚛 𝙳𝙲 𝙲𝚑𝚎𝚌𝚔.<br>
+💥𝙲𝚞𝚜𝚝𝚘𝚖 𝙳𝚘𝚖𝚊𝚒𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝. <br>
+💥𝙰𝚕𝚕 𝚄𝚗𝚠𝚊𝚗𝚍𝚎𝚍 𝙲𝙾𝙳𝙴 𝚁𝚎𝚖𝚘𝚟𝚎𝚍. <br>
 💥A lot more tired of writing check out by deploying it. 
 </details>
   <details>
