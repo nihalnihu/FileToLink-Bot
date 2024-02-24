@@ -20,7 +20,7 @@ SRT_TXT = """<b>𝙷𝚢 {} ㋛︎!,
 I ᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ.
 
 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 ᴀɴᴅ 𝗪𝗮𝘁𝗰𝗵 ʟɪɴᴋ.!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/MV_Rickers'>𝚃𝚊𝚖𝚒𝚕 𝚁𝚘𝚌𝚔𝚎𝚛𝚜</a></b>"""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/MV_Rockers'>𝚃𝚊𝚖𝚒𝚕 𝚁𝚘𝚌𝚔𝚎𝚛𝚜</a></b>"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
 async def start(b, m):
@@ -245,7 +245,7 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>Hy ᴅᴇᴀʀ...\nɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n<a href='https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1'>𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈</a>\n<a\n𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a></b>",
+            caption=f"<b>Hy ᴅᴇᴀʀ...\nɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n<a href='https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1'>𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈</a>\n\n𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
