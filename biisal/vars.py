@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_name = "File To Speed Link Bot"
-MV_Rockers = "https://telegram.me/MV_Rockers"
+biisal_files = "https://telegram.me/MV_Rockers"
 Movie_Laab = "https://t.me/Movie_Laab"
 
 class Var(object):
