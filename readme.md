@@ -5,8 +5,9 @@ Here is our Demo bot -
 
 [![Click Here](https://img.shields.io/badge/Demo%20Bot-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/FileToSpeedLink_Bot)](https://t.me/FileToSpeedLink_Bot)
 
-[![Follow Instagram](https://img.shields.io/badge/-Follow%20Instagram-black?style=flat&logo=instagram&labelColor=black&link=https://www.instagram.com/nihh____al)](https://www.instagram.com/nihh____al)
+[![Follow Instagram](https://img.shields.io/badge/-Follow%20Instagram-dd0a5e?style=flat&logo=instagram&labelColor=white&link=https://www.instagram.com/nihh____al)](https://www.instagram.com/nihh____al)
 
+[![Join WhatsApp Channel](https://img.shields.io/badge/-Whatsapp%20Channel-green?style=flat&logo=whatsapp&labelColor=white&link=https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1)](https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1)
 
 
 <h1 align="center"></h1>
