@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 bot_name = "File To Speed Link Bot"
 biisal_files = "https://telegram.me/MV_Rockers"
-Movie_Laab = "https://t.me/Movie_Laab"
+bisal_grp = "https://t.me/Movie_Laab"
 
 class Var(object):
     MULTI_CLIENT = False
