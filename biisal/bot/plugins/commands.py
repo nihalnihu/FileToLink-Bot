@@ -245,7 +245,7 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>Hy ᴅᴇᴀʀ 🥰, ɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙈𝙤𝙫𝙞𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 : <a href='https://whatsapp.com/channel/0029VaLe9dSGk1G2sHAqbR0s'>Join</a> \n\n𝙁𝙊𝙇𝙇𝙊𝙒 𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a></b>",
+            caption=f"<b>Hy ᴅᴇᴀʀ 🥰, ɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙈𝙤𝙫𝙞𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 : <a href='https://whatsapp.com/channel/0029VaLe9dSGk1G2sHAqbR0s'>ＭＶ_ＲＯＣＫＥＲＳ</a> \n\n𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a> \n\n <a href='https://www.instagram.com/nihh____al'>ＮＩＨＡＬ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
