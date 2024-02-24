@@ -13,7 +13,7 @@ from pyrogram.errors import UserNotParticipant
 from biisal.utils.file_properties import get_name, get_hash, get_media_file_size
 db = Database(Var.DATABASE_URL, Var.name)
 from pyrogram.types import ReplyKeyboardMarkup
-from biisal.vars import bot_name , bisal_channel , bisal_grp
+from biisal.vars import bot_name , bisal_channel , bisal_grp , nihal_cannel
 
 
 SRT_TXT = """<b>𝙷𝚢 {} ㋛︎!,
