@@ -13,7 +13,7 @@ from pyrogram.errors import UserNotParticipant
 from biisal.utils.file_properties import get_name, get_hash, get_media_file_size
 db = Database(Var.DATABASE_URL, Var.name)
 from pyrogram.types import ReplyKeyboardMarkup
-from biisal.vars import bot_name , bisal_channel , bisal_grp , mv_rockers , movie_laab
+from biisal.vars import bot_name , mv_rockers , movie_laab
 
 
 SRT_TXT = """<b>𝙷𝚢 {} ㋛︎!,
@@ -68,12 +68,12 @@ async def start(b, m):
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=MV_Rockers)],
+            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=mv_rockers)],
             [
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
                  InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
             ],
-            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=bisal_grp)],
+            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=movie_laab)],
 
             [
                  InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
@@ -118,7 +118,7 @@ async def help_cd(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/biisal_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/mv_rockers'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -129,11 +129,11 @@ async def help_cd(b, m):
     reply_markup=InlineKeyboardMarkup(
         [
             [   
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=bisal_channel)
+                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=mv_rockers)
             ],
             [
                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=bisal_grp),
+                InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=movie_laab),
 
             ],
             [
@@ -207,12 +207,12 @@ async def cb_handler(client, query):
         caption= SRT_TXT.format(query.from_user.mention(style="md")),
         reply_markup=InlineKeyboardMarkup(
                 [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=bisal_channel)],
+            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=mv_rockers)],
             [
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
                  InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
             ],
-            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=Movie_Laab)],
+            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=movie_laab)],
 
             [
                  InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
@@ -225,7 +225,7 @@ async def cb_handler(client, query):
     
     elif data == "about":
         await query.message.edit_caption(
-            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/FileToSpeedLink_Bot'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/MV_Rockers'>Tamil Rockers</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
+            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/FileToSpeedLink_Bot'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/MV_Rockers'>ᴛᴀᴍɪʟ ʀᴏᴄᴋᴇʀs</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
@@ -245,7 +245,7 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>Hy ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/MV_Rockers'>Nihal</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/darkhacker34'>Nihal</a> ʙʀᴏ..\n\nGɪᴛʜᴜʙ : <a href='https://github.com/darkhacker34'>Nihals's Gɪᴛʜᴜʙ</a></b>",
+            caption=f"<b>Hy ᴅᴇᴀʀ...\nɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n<a href='https://www.instagram.com/nihh____al?igsh=dnEzbWt3eHdmcjc1'>𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙀 𝙊𝙉 𝙄𝙉𝙎𝙏𝘼𝙂𝙍𝘼𝙈</a>\n<a\n𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
