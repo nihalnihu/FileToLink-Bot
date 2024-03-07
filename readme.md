@@ -9,8 +9,8 @@
 
 <h1 align="center"></h1>
 <p align="center"> 
-  <img src="https://telegra.ph/file/2d9f6de853dbd31cb3774.jpg" alt="Cover Image" width="200">
-  </a>
+ <a href="https://t.me/FileToSpeedLink_Bot"><img src="https://telegra.ph/file/2d9f6de853dbd31cb3774.jpg" alt="Cover Image" width="200"></a>
+  
   
  <p align="center">
     ᴀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ᴛᴇʀɴ ᴀʟʟ ᴍᴇᴅɪᴀ ᴀɴᴅ ғɪʟᴇs ᴛᴏ ɪɴsᴛᴀɴᴛ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋs.
