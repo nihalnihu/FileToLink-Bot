@@ -256,6 +256,9 @@ async def cb_handler(client, query):
     elif data == "usehere":
         await query.message.edit_caption(
             caption=f"Hʏ ᴅᴇᴀʀ!!🤗 Sᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ 🎥. ᴀɴᴅ ɪ ᴡɪʟʟ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 🚀 ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ. 🤧",
+            [[InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
+                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]])
+      
              )
         
     elif data == "aboutDev":
@@ -263,10 +266,8 @@ async def cb_handler(client, query):
         await query.message.edit_caption(
             caption=f"<b>Hy ᴅᴇᴀʀ 🥰, ᴍʏ ɴᴀᴍᴇ ɪs <a href='https://t.me/nihh_all'>ＮＩＨＡＬ</a>. ɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a></b>",
             reply_markup=InlineKeyboardMarkup(
-                [[ 
-                     InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
-                  ]]            )
+                [[InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
+                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]])
         )
     
     elif data.startswith("sendAlert"):
