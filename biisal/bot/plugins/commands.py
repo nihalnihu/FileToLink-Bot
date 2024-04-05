@@ -257,14 +257,14 @@ async def cb_handler(client, query):
         await query.message.edit_caption(
             caption=f"Hʏ ᴅᴇᴀʀ!!🤗\n\nSᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ 🎥.\nᴀɴᴅ ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀɴᴅ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 🚀 ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ. 🤧",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("ʜᴏᴍᴇ ♔︎", callback_data="start"),
+                [[InlineKeyboardButton("ʙᴀᴄᴋ ⌫", callback_data="help"),
                   InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]]))
 
     elif data == "channeluse":
         await query.message.edit_caption(
-            caption=f"Hʏ ᴅᴇᴀʀ!!✨\n\nᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ.👤\nᴍᴜsᴛ ᴡᴀɴᴛᴇᴅ ᴘᴇʀᴍɪssɪᴏɴ : ᴍᴇssᴀɢᴇ ᴇᴅɪᴛ ✅\n\nɴᴏᴡ ᴘᴏsᴛ ᴀ ғɪʟᴇ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ.🪄",
+            caption=f"Hʏ ᴅᴇᴀʀ!!✨\n\nᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ.👤\nᴍᴜsᴛ ᴡᴀɴᴛᴇᴅ ᴘᴇʀᴍɪssɪᴏɴ : ᴇᴅɪᴛ ᴍᴇssᴀɢᴇs ᴏғ ᴏᴛʜᴇʀs  ✅\n\nɴᴏᴡ ᴘᴏsᴛ ᴀ ғɪʟᴇ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ.🪄",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("ʜᴏᴍᴇ ♔︎", callback_data="start"),
+                [[InlineKeyboardButton("ʙᴀᴄᴋ ⌫", callback_data="help"),
                   InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]]))
 
         
