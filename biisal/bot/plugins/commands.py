@@ -126,7 +126,7 @@ async def help_cd(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/mv_rockers'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/nihh_all'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -223,8 +223,9 @@ async def cb_handler(client, query):
             ],
         
             [
-                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ✔︎", url=mv_rockers),
-                 InlineKeyboardButton("ᴅᴇᴠᴏʟᴏᴘᴇʀ ☠︎︎", callback_data="aboutDev")
+                 
+                 InlineKeyboardButton("ᴅᴇᴠᴏʟᴏᴘᴇʀ ✰", callback_data="aboutDev"),
+                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ⚠︎", url=mv_rockers)
             ]
         ]
             )
