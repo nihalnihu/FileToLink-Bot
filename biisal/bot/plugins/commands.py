@@ -16,11 +16,13 @@ from pyrogram.types import ReplyKeyboardMarkup
 from biisal.vars import bot_name , mv_rockers , movie_laab
 
 
-SRT_TXT = """<b>𝙷𝚢 {} ☻︎!,
-I ᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ.
+SRT_TXT = """𝙷𝚢 {} ☻︎!,
 
-Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 ᴀɴᴅ 𝗪𝗮𝘁𝗰𝗵 ʟɪɴᴋ.!
-𝘖𝘳 𝘈𝘥𝘥 𝘔𝘦 𝘛𝘰 𝘠𝘰𝘶𝘳 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 𝘛𝘩𝘦𝘯 𝘚𝘦𝘯𝘥 𝘈 𝘍𝘪𝘭𝘦 𝘛𝘰 𝘛𝘩𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 𝘈𝘯𝘥 𝘚𝘦𝘦 𝘛𝘩𝘦 𝘔𝘢𝘨𝘪𝘤...🦹🏼‍♂️</b>"""
+I ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ...😎
+
+!ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ⌫
+
+"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
 async def start(b, m):
@@ -241,13 +243,17 @@ async def cb_handler(client, query):
         )
     elif data == "help":
         await query.message.edit_caption(
-        caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴠɪᴅᴇᴏ ғɪʟᴇs ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ.. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ 😎</b>",
+        caption=f"🤔 𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎..?",
             reply_markup=InlineKeyboardMarkup(
-[[ 
-                     InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
-                  ]]            )
-        )
+[
+    [InlineKeyboardButton("ᴜsᴇ ɪɴ ᴄʜᴀɴɴᴇʟ", callback_data="start"),
+     InlineKeyboardButton("ᴜsᴇ ʜᴇʀᴇ", callback_data="close_data")],
+   
+                     [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
+                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]
+    
+]                                            )
+                                         )
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
