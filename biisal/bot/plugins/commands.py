@@ -84,7 +84,9 @@ async def start(b, m):
                 
                  InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ⚠︎", url=mv_rockers)
             
-            ]
+            ],
+
+            [InlineKeyboardButton("☕ 𝖻𝗎𝗒 𝗆𝖾 𝖺 𝖼𝗈𝖿𝖿𝖾𝖾 ☕", url="https://www.buymeacoffee.com/nihaal")]
         ]
     )
 )
@@ -225,7 +227,9 @@ async def cb_handler(client, query):
                  
                  InlineKeyboardButton("ᴅᴇᴠᴏʟᴏᴘᴇʀ ✰", callback_data="aboutDev"),
                  InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ⚠︎", url=mv_rockers)
-            ]
+            ],
+                    [InlineKeyboardButton("☕ 𝖻𝗎𝗒 𝗆𝖾 𝖺 𝖼𝗈𝖿𝖿𝖾𝖾 ☕", url="https://www.buymeacoffee.com/nihaal")]
+       
         ]
             )
         )
