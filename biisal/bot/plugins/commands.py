@@ -257,11 +257,8 @@ async def cb_handler(client, query):
         await query.message.edit_caption(
             caption=f"Hʏ ᴅᴇᴀʀ!!🤗 Sᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ 🎥. ᴀɴᴅ ɪ ᴡɪʟʟ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 🚀 ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ. 🤧",
             [[InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
-             ]]
-        
-      
-             )
+              InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
+             ]] )
         
     elif data == "aboutDev":
         # please don't steal credit
