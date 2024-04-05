@@ -29,9 +29,7 @@ msg_text ="""<b>‣ ʏᴏᴜʀ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ! 😎
 
 🔗 ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ: {}
 
-🔗 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ: {} (ʏᴏᴜ ᴄᴀɴ ᴡᴀᴛᴄʜ ᴛʜᴇ ғɪʟᴇ/ᴠɪᴅᴇᴏ ɪɴ ᴍx ᴘʟᴀʏᴇʀ ᵒʳ ᴠʟᴄ ᵒʳ ᴇᴛc... ᴜsɪɴɢ ᴛʜɪs ʟɪɴᴋ)🤩
-
-‣ ＧＥＴ <a href="https://t.me/MV_Rockers">ＭＯＲＥ ＦＩＬＥＳ</a></b> 🤡"""
+🔗 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ: {} (ʏᴏᴜ ᴄᴀɴ ᴡᴀᴛᴄʜ ᴛʜᴇ ғɪʟᴇ/ᴠɪᴅᴇᴏ ɪɴ ᴍx ᴘʟᴀʏᴇʀ ᵒʳ ᴠʟᴄ ᵒʳ ᴇᴛc... ᴜsɪɴɢ ᴛʜɪs ʟɪɴᴋ)🤩</b>"""
 
 
 
@@ -90,7 +88,7 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📺 ᴡᴀᴛᴄʜ", url=stream_link), #Stream Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("▶️ ᴡᴀᴛᴄʜ", url=stream_link), #Stream Link
                                                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]]) #Download Link
         )
     except FloodWait as e:
@@ -120,7 +118,7 @@ async def channel_receive_handler(bot, broadcast):
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("📺 ᴡᴀᴛᴄʜ", url=stream_link),
+                    [InlineKeyboardButton("▶️ ᴡᴀᴛᴄʜ", url=stream_link),
                     InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)] 
                 ]
             )
