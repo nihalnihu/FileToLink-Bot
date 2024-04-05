@@ -1,4 +1,4 @@
-# (c) @biisal @adarsh
+
 
 from biisal.bot import StreamBot
 from biisal.vars import Var
@@ -246,7 +246,7 @@ async def cb_handler(client, query):
         caption=f"🤔 𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎..?",
             reply_markup=InlineKeyboardMarkup(
 [
-    [InlineKeyboardButton("ᴜsᴇ ɪɴ ᴄʜᴀɴɴᴇʟ", callback_data="start"),
+    [InlineKeyboardButton("ᴜsᴇ ɪɴ ᴄʜᴀɴɴᴇʟ", callback_data="channeluse"),
      InlineKeyboardButton("ᴜsᴇ ʜᴇʀᴇ", callback_data="usehere")],
    
                      [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
@@ -255,12 +255,18 @@ async def cb_handler(client, query):
         
     elif data == "usehere":
         await query.message.edit_caption(
-            caption=f"Hʏ ᴅᴇᴀʀ!!🤗 Sᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ 🎥. ᴀɴᴅ ɪ ᴡɪʟʟ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 🚀 ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ. 🤧",
+            caption=f"Hʏ ᴅᴇᴀʀ!!🤗\n\nSᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ 🎥.\nᴀɴᴅ ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀɴᴅ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 🚀 ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ. 🤧",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                  InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]])
-            
-        )
+                [[InlineKeyboardButton("ʜᴏᴍᴇ ♔︎", callback_data="start"),
+                  InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]]))
+
+    elif data == "channeluse":
+        await query.message.edit_caption(
+            caption=f"Hʏ ᴅᴇᴀʀ!!✨\n\nᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ.👤\nᴍᴜsᴛ ᴡᴀɴᴛᴇᴅ ᴘᴇʀᴍɪssɪᴏɴ : ᴍᴇssᴀɢᴇ ᴇᴅɪᴛ ✅\n\nɴᴏᴡ ᴘᴏsᴛ ᴀ ғɪʟᴇ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ.🪄",
+            reply_markup=InlineKeyboardMarkup(
+                [[InlineKeyboardButton("ʜᴏᴍᴇ ♔︎", callback_data="start"),
+                  InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]]))
+
         
     elif data == "aboutDev":
         # please don't steal credit
@@ -268,7 +274,7 @@ async def cb_handler(client, query):
             caption=f"<b>Hy ᴅᴇᴀʀ 🥰, ᴍʏ ɴᴀᴍᴇ ɪs <a href='https://t.me/nihh_all'>ＮＩＨＡＬ</a>. ɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]])
+                  InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]])
         )
     
     elif data.startswith("sendAlert"):
