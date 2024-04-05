@@ -88,14 +88,16 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
+            reply_markup=InlineKeyboardMarkup( [[
                 
-                [InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
-                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]
-        
-                
-        )
-        )
+                InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
+                InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)
+            ],[
+                InlineKeyboardButton('☕ 𝖻𝗎𝗒 𝗆𝖾 𝖺 𝖼𝗈𝖿𝖿𝖾𝖾 ☕', url="https://www.buymeacoffee.com/nihaal")
+       
+            ]]
+            )
+         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
         await asyncio.sleep(e.x)
@@ -126,7 +128,7 @@ async def channel_receive_handler(bot, broadcast):
                 InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)
             ],[
-                InlineKeyboardButton('Coffee', url="https://t.me/nihh_all")
+                InlineKeyboardButton('☕ 𝖻𝗎𝗒 𝗆𝖾 𝖺 𝖼𝗈𝖿𝖿𝖾𝖾 ☕', url="https://www.buymeacoffee.com/nihaal")
        
             ]]
             )
