@@ -257,9 +257,7 @@ async def cb_handler(client, query):
 
         await query.message.edit_caption(
 
-            caption=f"Hʏ ᴅᴇᴀʀ!!🤗
-            
-            Sᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ. ᴀɴᴅ ɪ ᴡɪʟʟ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ ",
+            caption=f"Hʏ ᴅᴇᴀʀ!!🤗\n\nSᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ 🎥. ᴀɴᴅ ɪ ᴡɪʟʟ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 🚀 ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ. 🤧",
             reply_markup=InlineKeyboardMarkup(
 
                 [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
