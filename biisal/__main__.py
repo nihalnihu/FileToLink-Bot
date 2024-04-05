@@ -91,7 +91,7 @@ async def start_services():
     print('---------------------------------------------------------------------------------------------------------')
     print(LOGO)
     try: 
-        await StreamBot.send_message(chat_id=Var.OWNER_ID[0] ,text='<b>𝚄𝚙𝚍𝚊𝚝𝚎𝚍 𝚃𝚘 𝙻𝚊𝚝𝚊𝚜𝚝...☕</b>')
+        await StreamBot.send_message(chat_id=Var.OWNER_ID[0] ,text='<b>ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ...😎</b>')
     except Exception as e:
         print(f'got this error to send restart msg to owner : {e}')
     await idle()
