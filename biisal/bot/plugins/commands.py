@@ -243,8 +243,8 @@ async def cb_handler(client, query):
             )
         )
     elif data == "help":
-        await query.message.edit_caption(
-        caption=f"[{m.from_user.first_name}]🤔 𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎..?",
+        await query.message.edit_caption.Var.NEW_USER_LOG(
+        caption=f"🤔 [{m.from_user.first_name}] 𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎..?",
             reply_markup=InlineKeyboardMarkup(
 [
     [InlineKeyboardButton("ᴜsᴇ ɪɴ ᴄʜᴀɴɴᴇʟ", callback_data="channeluse"),
