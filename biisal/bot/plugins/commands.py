@@ -251,9 +251,23 @@ async def cb_handler(client, query):
    
                      [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
                      InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]
-    
-]                                            )
-                                         )
+]))
+        
+    elif data == "usehere":
+
+        await query.message.edit_caption(
+
+            caption=f"Hʏ ᴅᴇᴀʀ!!🤗
+            
+            Sᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ ғɪʟᴇ. ᴀɴᴅ ɪ ᴡɪʟʟ sᴇɴᴅ ᴡᴀᴛᴄʜ/ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴏғ ᴛʜᴀᴛ ᴠɪᴅᴇᴏ ғɪʟᴇ ",
+            reply_markup=InlineKeyboardMarkup(
+
+                [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
+                 InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]
+                
+            )
+                     )
+        
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
@@ -263,12 +277,6 @@ async def cb_handler(client, query):
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
                      InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
                   ]]            )
-        )
-    elif data == "usehere":
-
-        await query.message.edit_caption(
-
-            caption=f"hy dear under development"
         )
     
     elif data.startswith("sendAlert"):
