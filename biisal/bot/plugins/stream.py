@@ -91,7 +91,11 @@ async def private_receive_handler(c: Client, m: Message):
             reply_markup=InlineKeyboardMarkup(
                 
                 [InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
-                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]
+                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)],
+                
+      
+                [InlineKeyboardButton("Option 3", url="https://t.me/nihh_all")]
+        
                 
         )
         )
@@ -122,8 +126,14 @@ async def channel_receive_handler(bot, broadcast):
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
                 
-                    [InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
-                    InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]
+                [InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
+                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)],
+
+                [InlineKeyboardButton("Option 3", url="https://t.me/nihh_all")]
+        
+                
+
+                
             )
          )
     except FloodWait as w:
