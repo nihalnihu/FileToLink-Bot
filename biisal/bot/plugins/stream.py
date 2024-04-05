@@ -91,10 +91,7 @@ async def private_receive_handler(c: Client, m: Message):
             reply_markup=InlineKeyboardMarkup(
                 
                 [InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
-                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)],
-                
-      
-                [InlineKeyboardButton("Option 3", url="https://t.me/nihh_all")]
+                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]
         
                 
         )
