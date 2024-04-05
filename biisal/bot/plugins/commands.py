@@ -21,7 +21,7 @@ SRT_TXT = """𝙷𝚢 {} ☻︎!,
 I ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ...😎
 
 !ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ⌫
-{}
+
 """
 
 @StreamBot.on_message(filters.command("start") & filters.private )
@@ -244,7 +244,7 @@ async def cb_handler(client, query):
         )
     elif data == "help":
         await query.message.edit_caption(
-        caption=f"🤔 𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎..?",
+        caption=f"🤔 𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎..?\n{SRT_TXT}",
             reply_markup=InlineKeyboardMarkup(
 [
     [InlineKeyboardButton("ᴜsᴇ ɪɴ ᴄʜᴀɴɴᴇʟ", callback_data="channeluse"),
