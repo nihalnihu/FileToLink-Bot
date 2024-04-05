@@ -282,16 +282,15 @@ async def cb_handler(client, query):
             caption=f"<b>Hy ᴅᴇᴀʀ 🥰, ᴍʏ ɴᴀᴍᴇ ɪs <a href='https://t.me/nihh_all'>ɴɪʜᴀʟ</a>. ɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ</b>",
             reply_markup=InlineKeyboardMarkup(
                 [
+                    
                [InlineKeyboardButton("ɪɴsᴛᴀɢʀᴀᴍ", url="https://www.instagram.com/nihh____al"),
                 InlineKeyboardButton("ɢɪᴛʜᴜʙ", url="https://github.com/darkhacker34")],
                     
                     [InlineKeyboardButton("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/nihh_all"),
-                     InlineKeyboardButton("ɢᴍᴀɪʟ", url="nihalthoppil16@gmail.com")
-                    ],
+                     InlineKeyboardButton("ɢᴍᴀɪʟ", url="nihalthoppil16@gmail.com")],
                 
                 [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
                   InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]
-               ]
             )
         )
     
