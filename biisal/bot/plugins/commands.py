@@ -21,7 +21,7 @@ SRT_TXT = """𝙷𝚢 {} ☻︎!,
 I ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ...😎
 
 !ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ⌫
-
+{}
 """
 
 @StreamBot.on_message(filters.command("start") & filters.private )
