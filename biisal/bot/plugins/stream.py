@@ -88,8 +88,8 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]])#Downlod Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link), 
+                                                InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]]),
             
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("☕𝘣𝘶𝘺 𝘮𝘦 𝘢 𝘤𝘰𝘧𝘧𝘦𝘦☕", url="https://www.buymeacoffee.com/nihaal")]])
         )
@@ -121,10 +121,8 @@ async def channel_receive_handler(bot, broadcast):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
-                    InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)
-                    ]
-                ]
-            )
+                    InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)]),
+            
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("☕𝘣𝘶𝘺 𝘮𝘦 𝘢 𝘤𝘰𝘧𝘧𝘦𝘦☕", url="https://www.buymeacoffee.com/nihaal")]])
   
         )
