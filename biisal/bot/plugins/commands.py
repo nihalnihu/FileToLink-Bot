@@ -247,7 +247,7 @@ async def cb_handler(client, query):
             reply_markup=InlineKeyboardMarkup(
 [
     [InlineKeyboardButton("ᴜsᴇ ɪɴ ᴄʜᴀɴɴᴇʟ", callback_data="start"),
-     InlineKeyboardButton("ᴜsᴇ ʜᴇʀᴇ", callback_data="close_data")],
+     InlineKeyboardButton("ᴜsᴇ ʜᴇʀᴇ", callback_data="usehere")],
    
                      [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
                      InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]
@@ -264,6 +264,13 @@ async def cb_handler(client, query):
                      InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
                   ]]            )
         )
+    elif data == "usehere":
+
+        await query.message.edit_caption(
+
+            caption=f"hy dear under development"
+        )
+    
     elif data.startswith("sendAlert"):
         user_id =(data.split("_")[1])
         user_id = int(user_id.replace(' ' , ''))
