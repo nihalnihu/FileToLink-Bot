@@ -287,7 +287,7 @@ async def cb_handler(client, query):
                 InlineKeyboardButton("ɢɪᴛʜᴜʙ", url="https://github.com/darkhacker34")],
                     
                     [InlineKeyboardButton("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/nihh_all"),
-                     InlineKeyboardButton("ɢᴍᴀɪʟ", url="www.nihalthoppil16@gmail.com")],
+                     InlineKeyboardButton("ɢᴍᴀɪʟ", url="https://t.me/nihh_all")],
                 
                 [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
      
