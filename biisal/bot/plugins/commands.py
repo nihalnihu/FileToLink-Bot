@@ -15,7 +15,6 @@ db = Database(Var.DATABASE_URL, Var.name)
 from pyrogram.types import ReplyKeyboardMarkup
 from biisal.vars import bot_name , mv_rockers , movie_laab
 
-
 SRT_TXT = """𝙷𝚢 {} ☻︎!,
 
 I ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ...😎
@@ -243,8 +242,8 @@ async def cb_handler(client, query):
             )
         )
     elif data == "help":
-        await query.message.edit_caption.Var.NEW_USER_LOG(
-        caption=f"🤔 [{m.from_user.first_name}] 𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎..?",
+        await query.message.edit_caption(
+        caption=f"𝚃𝚘 𝚄𝚜𝚎 𝙾𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙾𝚛 𝚄𝚜𝚎 𝙷𝚎𝚛𝚎...🤔 ?",
             reply_markup=InlineKeyboardMarkup(
 [
     [InlineKeyboardButton("ᴜsᴇ ɪɴ ᴄʜᴀɴɴᴇʟ", callback_data="channeluse"),
@@ -280,10 +279,20 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>Hy ᴅᴇᴀʀ 🥰, ᴍʏ ɴᴀᴍᴇ ɪs <a href='https://t.me/nihh_all'>ＮＩＨＡＬ</a>. ɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ\n\n𝙂𝙞𝙩𝙃𝙐𝘽 : <a href='https://github.com/darkhacker34'>ＤＡＲＫ ＨＡＣＫＥＲ</a></b>",
+            caption=f"<b>Hy ᴅᴇᴀʀ 🥰, ᴍʏ ɴᴀᴍᴇ ɪs <a href='https://t.me/nihh_all'>ɴɪʜᴀʟ</a>. ɪ,ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛʜɪᴤ ʙᴏᴛ</b>",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                  InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]])
+                [
+               [InlineKeyboardButton("ɪɴsᴛᴀɢʀᴀᴍ", url="https://www.instagram.com/nihh____al"),
+                InlineKeyboardButton("ɢɪᴛʜᴜʙ", url="https://github.com/darkhacker34")],
+                    
+                    [InlineKeyboardButton("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/nihh_all"),
+                     InlineKeyboardButton("ɢᴍᴀɪʟ", url="nihalthoppil16@gmail.com")
+                    ],
+                
+                [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
+                  InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")]
+               ]
+            )
         )
     
     elif data.startswith("sendAlert"):
