@@ -124,16 +124,14 @@ async def channel_receive_handler(bot, broadcast):
         await bot.edit_message_reply_markup(
             chat_id=broadcast.chat.id,
             message_id=broadcast.id,
-            reply_markup=InlineKeyboardMarkup(
+            reply_markup=InlineKeyboardMarkup( [[
                 
-                [InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
-                 InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)],
-
-                [InlineKeyboardButton("Option 3", url="https://t.me/nihh_all")]
-        
-                
-
-                
+                InlineKeyboardButton("🎭 ᴡᴀᴛᴄʜ", url=stream_link),
+                InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)
+            ],[
+                InlineKeyboardButton('Coffee', url="https://t.me/nihh_all")
+       
+            ]]
             )
          )
     except FloodWait as w:
