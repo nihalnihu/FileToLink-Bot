@@ -15,7 +15,7 @@ db = Database(Var.DATABASE_URL, Var.name)
 from pyrogram.types import ReplyKeyboardMarkup
 from biisal.vars import bot_name , mv_rockers , movie_laab
 
-SRT_TXT = """𝙷𝚢 {} ☻︎!,
+SRT_TXT = """<blockquote>𝙷𝚢 {} ☻︎!,</blockquote>
 
 I ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ...😎
 
@@ -266,7 +266,7 @@ async def cb_handler(client, query):
 
     elif data == "channeluse":
         await query.message.edit_caption(
-            caption=f"Hʏ ᴅᴇᴀʀ!!✨\n\nᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ.👤\n<blockquote>ᴍᴜsᴛ ᴡᴀɴᴛᴇᴅ ᴘᴇʀᴍɪssɪᴏɴ : ᴇᴅɪᴛ ᴍᴇssᴀɢᴇs ᴏғ ᴏᴛʜᴇʀs ✅</blockquote>\n\nɴᴏᴡ ᴘᴏsᴛ ᴀ ғɪʟᴇ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ.🪄",
+            caption=f"Hʏ ᴅᴇᴀʀ!!✨\n\nᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ.👤\nᴍᴜsᴛ ᴡᴀɴᴛᴇᴅ ᴘᴇʀᴍɪssɪᴏɴ : ᴇᴅɪᴛ ᴍᴇssᴀɢᴇs ᴏғ ᴏᴛʜᴇʀs ✅\n\nɴᴏᴡ ᴘᴏsᴛ ᴀ ғɪʟᴇ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ.🪄",
             reply_markup=InlineKeyboardMarkup(
              [
                  [InlineKeyboardButton("➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ➕", url="http://t.me/FileToSpeedLink_Bot?startchannel=true")],
