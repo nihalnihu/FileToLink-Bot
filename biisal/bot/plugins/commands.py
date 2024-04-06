@@ -1,5 +1,5 @@
 
-
+from telegram import ParseMode
 from biisal.bot import StreamBot
 from biisal.vars import Var
 import logging
