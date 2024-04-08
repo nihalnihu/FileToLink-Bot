@@ -60,7 +60,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/MV_Rockers'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.ᴘʟᴇᴀsᴇ <a href='https://t.me/TG_BotCreator'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ sᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -236,7 +236,7 @@ async def cb_handler(client, query):
     
     elif data == "about":
         await query.message.edit_caption(
-            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/FileToSpeedLink_Bot'>{bot_name}</a>\nOᴡɴᴇʀ : <a href='https://t.me/MV_Rockers'>Nɪʜᴀʟ</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
+            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/FileToSpeedLink_Bot'>{bot_name}</a>\nOᴡɴᴇʀ : <a href='https://t.me/TG_BotCreator'>Nɪʜᴀʟ</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
@@ -290,7 +290,7 @@ async def cb_handler(client, query):
                 InlineKeyboardButton("ɢɪᴛʜᴜʙ", url="https://github.com/darkhacker34")],
                     
                     [InlineKeyboardButton("ᴛᴇʟᴇɢʀᴀᴍ", url="https://t.me/nihh_all"),
-                     InlineKeyboardButton("Support💲", url="https://www.buymeacoffee.com/nihaal")],
+                     InlineKeyboardButton("Support💲", url="https://t.me/TG_BotCreator")],
                 
                 [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
      
