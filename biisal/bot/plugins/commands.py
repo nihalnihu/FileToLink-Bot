@@ -14,7 +14,7 @@ db = Database(Var.DATABASE_URL, Var.name)
 from pyrogram.types import ReplyKeyboardMarkup
 from biisal.vars import bot_name , mv_rockers , movie_laab
 
-SRT_TXT = """<blockquote>𝙷𝚢 {} ☻︎!,</blockquote>
+SRT_TXT = """𝙷𝚢 {} ☻︎!,
 
 I ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ғɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ...😎
 
