@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_name = "File To Speed Link Bot"
-mv_rockers = "https://t.me/MV_Rockers"
-movie_laab = "https://t.me/movie_laab"
+mv_rockers = "https://t.me/TG_BotCreator"
+movie_laab = "https://t.me/TG_BotCreatorSupport"
 
 class Var(object):
     MULTI_CLIENT = False
