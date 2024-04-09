@@ -28,7 +28,7 @@ async def sts(c: Client, m: Message):
 async def broadcast_(c, m):
     user_id=m.from_user.id
     out = await m.reply_text(
-            text=f"*Broadcast initiated! You will be notified with log file when all the users are notified.*"
+            text=f"**Broadcast initiated! You will be notified with log file when all the users are notified.**"
     )
     all_users = await db.get_all_users()
     broadcast_msg = m.reply_to_message
